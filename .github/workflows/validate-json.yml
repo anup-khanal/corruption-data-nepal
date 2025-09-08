@@ -1,0 +1,191 @@
+name: Validate JSON Data
+
+on:
+  pull_request:
+    paths:
+      - 'incidents.json'
+      - 'sample-incidents.json'
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'incidents.json'
+      - 'sample-incidents.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jsonschema
+        
+    - name: Validate JSON syntax
+      run: |
+        echo "Validating JSON syntax..."
+        python -c "
+        import json
+        import sys
+        
+        files_to_check = ['incidents.json', 'sample-incidents.json']
+        
+        for file_path in files_to_check:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                print(f'✅ {file_path}: Valid JSON syntax')
+            except json.JSONDecodeError as e:
+                print(f'❌ {file_path}: Invalid JSON - {e}')
+                sys.exit(1)
+            except FileNotFoundError:
+                print(f'⚠️  {file_path}: File not found (this may be expected)')
+        "
+        
+    - name: Validate data structure
+      run: |
+        echo "Validating data structure..."
+        python -c "
+        import json
+        import sys
+        from datetime import datetime
+        
+        def validate_incident(incident, file_name, index):
+            required_fields = [
+                'id', 'title', 'description', 'category', 'amount', 
+                'year', 'location', 'officialInvolved', 'status', 
+                'submittedBy', 'submittedAt', 'evidence', 'links', 'tags'
+            ]
+            
+            valid_categories = ['embezzlement', 'procurement_fraud', 'bribery']
+            valid_statuses = ['pending', 'approved', 'rejected']
+            
+            # Check required fields
+            for field in required_fields:
+                if field not in incident:
+                    print(f'❌ {file_name}[{index}]: Missing required field: {field}')
+                    return False
+            
+            # Validate category
+            if incident['category'] not in valid_categories:
+                print(f'❌ {file_name}[{index}]: Invalid category: {incident[\"category\"]}')
+                return False
+                
+            # Validate status
+            if incident['status'] not in valid_statuses:
+                print(f'❌ {file_name}[{index}]: Invalid status: {incident[\"status\"]}')
+                return False
+                
+            # Validate year
+            if not isinstance(incident['year'], int) or incident['year'] < 1990 or incident['year'] > 2030:
+                print(f'❌ {file_name}[{index}]: Invalid year: {incident[\"year\"]}')
+                return False
+                
+            # Validate amount
+            if not isinstance(incident['amount'], (int, float)) or incident['amount'] < 0:
+                print(f'❌ {file_name}[{index}]: Invalid amount: {incident[\"amount\"]}')
+                return False
+                
+            # Validate arrays
+            if not isinstance(incident['evidence'], list):
+                print(f'❌ {file_name}[{index}]: Evidence must be an array')
+                return False
+                
+            if not isinstance(incident['links'], list):
+                print(f'❌ {file_name}[{index}]: Links must be an array')
+                return False
+                
+            if not isinstance(incident['tags'], list):
+                print(f'❌ {file_name}[{index}]: Tags must be an array')
+                return False
+            
+            # Validate ID format
+            if not incident['id'].startswith('incident_'):
+                print(f'❌ {file_name}[{index}]: ID must start with \"incident_\": {incident[\"id\"]}')
+                return False
+                
+            return True
+        
+        files_to_check = ['incidents.json', 'sample-incidents.json']
+        all_valid = True
+        
+        for file_path in files_to_check:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    
+                if not isinstance(data, list):
+                    print(f'❌ {file_path}: Root element must be an array')
+                    all_valid = False
+                    continue
+                    
+                incident_ids = set()
+                for i, incident in enumerate(data):
+                    if not validate_incident(incident, file_path, i):
+                        all_valid = False
+                    
+                    # Check for duplicate IDs
+                    if incident['id'] in incident_ids:
+                        print(f'❌ {file_path}[{i}]: Duplicate ID: {incident[\"id\"]}')
+                        all_valid = False
+                    incident_ids.add(incident['id'])
+                        
+                print(f'✅ {file_path}: Structure validation complete ({len(data)} incidents)')
+                
+            except FileNotFoundError:
+                print(f'⚠️  {file_path}: File not found (this may be expected)')
+            except Exception as e:
+                print(f'❌ {file_path}: Validation error - {e}')
+                all_valid = False
+        
+        if not all_valid:
+            sys.exit(1)
+        "
+        
+    - name: Check for duplicate incidents
+      run: |
+        echo "Checking for duplicate incidents across files..."
+        python -c "
+        import json
+        import sys
+        
+        try:
+            # Load both files if they exist
+            incidents_data = []
+            sample_data = []
+            
+            try:
+                with open('incidents.json', 'r', encoding='utf-8') as f:
+                    incidents_data = json.load(f)
+            except FileNotFoundError:
+                pass
+                
+            try:
+                with open('sample-incidents.json', 'r', encoding='utf-8') as f:
+                    sample_data = json.load(f)
+            except FileNotFoundError:
+                pass
+            
+            # Check for duplicate IDs across files
+            incidents_ids = {item['id'] for item in incidents_data}
+            sample_ids = {item['id'] for item in sample_data}
+            
+            duplicates = incidents_ids.intersection(sample_ids)
+            if duplicates:
+                print(f'❌ Duplicate IDs found across files: {duplicates}')
+                sys.exit(1)
+            
+            print('✅ No duplicate incidents found across files')
+            
+        except Exception as e:
+            print(f'❌ Error checking duplicates: {e}')
+            sys.exit(1)
+        "

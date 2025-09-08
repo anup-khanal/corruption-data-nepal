@@ -1,0 +1,260 @@
+[
+  {
+    "id": "incident_001",
+    "title": "Giribandhu Tea Estate Corporation Scandal",
+    "description": "Major financial irregularities discovered in the state-owned tea corporation involving misappropriation of funds allocated for infrastructure development and employee welfare programs.",
+    "category": "embezzlement",
+    "amount": 56000000000,
+    "year": 2024,
+    "location": "Jhapa, Nepal",
+    "officialInvolved": "Managing Director Ram Bahadur Thapa, Finance Director Sita Kumari Sharma",
+    "status": "approved",
+    "submittedBy": "Investigative Journalist",
+    "submittedAt": "2024-08-15T10:30:00Z",
+    "evidence": [
+      "audit_report_2024.pdf",
+      "bank_statements.pdf"
+    ],
+    "links": [
+      "https://example.com/news-article-1",
+      "https://example.com/government-report"
+    ],
+    "tags": ["tea-estate", "state-owned", "infrastructure"]
+  },
+  {
+    "id": "incident_002",
+    "title": "Road Construction Contract Fraud",
+    "description": "Inflated contracts and substandard materials used in highway construction project, resulting in significant financial losses and compromised road quality.",
+    "category": "procurement_fraud",
+    "amount": 25000000000,
+    "year": 2024,
+    "location": "Kathmandu-Terai Highway",
+    "officialInvolved": "Project Director Hari Prasad Poudel, Procurement Officer Kamala Devi Shrestha",
+    "status": "approved",
+    "submittedBy": "Civil Engineer",
+    "submittedAt": "2024-07-22T14:15:00Z",
+    "evidence": [
+      "contract_documents.pdf",
+      "quality_test_reports.pdf",
+      "photos_substandard_work.zip"
+    ],
+    "links": [
+      "https://example.com/highway-project-news"
+    ],
+    "tags": ["road-construction", "highway", "contracts"]
+  },
+  {
+    "id": "incident_003",
+    "title": "Medical Equipment Procurement Scandal",
+    "description": "Overpriced medical equipment purchased during COVID-19 pandemic with suspected kickbacks to procurement officials.",
+    "category": "procurement_fraud",
+    "amount": 15000000000,
+    "year": 2023,
+    "location": "Ministry of Health, Kathmandu",
+    "officialInvolved": "Joint Secretary Dr. Bishnu Prasad Regmi, Procurement Committee Chairman Laxmi Narayan Joshi",
+    "status": "approved",
+    "submittedBy": "Healthcare Worker",
+    "submittedAt": "2024-06-10T09:45:00Z",
+    "evidence": [
+      "procurement_records.xlsx",
+      "price_comparison.pdf"
+    ],
+    "links": [
+      "https://example.com/covid-equipment-scandal"
+    ],
+    "tags": ["medical-equipment", "covid-19", "healthcare"]
+  },
+  {
+    "id": "incident_004",
+    "title": "Education Ministry Scholarship Fraud",
+    "description": "Fake scholarship recipients and ghost students identified in government scholarship programs, with funds diverted to personal accounts.",
+    "category": "embezzlement",
+    "amount": 8000000000,
+    "year": 2023,
+    "location": "Ministry of Education, Kathmandu",
+    "officialInvolved": "Under Secretary Ganga Prasad Adhikari, Scholarship Section Chief Radha Krishna Bhattarai",
+    "status": "approved",
+    "submittedBy": "Education Activist",
+    "submittedAt": "2024-05-18T16:20:00Z",
+    "evidence": [
+      "scholarship_records.xlsx",
+      "fake_documents.pdf"
+    ],
+    "links": [
+      "https://example.com/scholarship-fraud-expose"
+    ],
+    "tags": ["education", "scholarships", "students"]
+  },
+  {
+    "id": "incident_005",
+    "title": "Local Government Land Grab",
+    "description": "Municipal officials illegally allocated public land to private developers at below-market rates in exchange for personal benefits.",
+    "category": "bribery",
+    "amount": 12000000000,
+    "year": 2024,
+    "location": "Pokhara Metropolitan City",
+    "officialInvolved": "Mayor Man Bahadur Gurung, Land Revenue Officer Dil Maya Tamang",
+    "status": "approved",
+    "submittedBy": "Local Resident",
+    "submittedAt": "2024-04-25T11:30:00Z",
+    "evidence": [
+      "land_allocation_documents.pdf",
+      "market_price_analysis.pdf"
+    ],
+    "links": [
+      "https://example.com/pokhara-land-scandal"
+    ],
+    "tags": ["land-grab", "municipal", "real-estate"]
+  },
+  {
+    "id": "incident_006",
+    "title": "Hydropower Project Kickbacks",
+    "description": "Senior officials received substantial kickbacks for approving environmentally questionable hydropower projects without proper impact assessments.",
+    "category": "bribery",
+    "amount": 35000000000,
+    "year": 2023,
+    "location": "Gandaki Province",
+    "officialInvolved": "Energy Secretary Surya Bahadur Thapa, Environmental Assessment Director Prem Lal Maharjan",
+    "status": "approved",
+    "submittedBy": "Environmental Activist",
+    "submittedAt": "2024-03-12T13:45:00Z",
+    "evidence": [
+      "environmental_reports.pdf",
+      "approval_documents.pdf",
+      "bank_transfers.xlsx"
+    ],
+    "links": [
+      "https://example.com/hydropower-corruption"
+    ],
+    "tags": ["hydropower", "environment", "energy"]
+  },
+  {
+    "id": "incident_007",
+    "title": "Airport Construction Overruns",
+    "description": "Massive cost overruns in regional airport construction with evidence of inflated invoices and phantom contractors.",
+    "category": "procurement_fraud",
+    "amount": 18000000000,
+    "year": 2024,
+    "location": "Bharatpur Airport",
+    "officialInvolved": "Airport Development Committee Chairman Keshav Raj Pandey, Chief Engineer Sarita Devi Karki",
+    "status": "approved",
+    "submittedBy": "Construction Worker",
+    "submittedAt": "2024-02-28T08:15:00Z",
+    "evidence": [
+      "construction_invoices.pdf",
+      "contractor_verification.xlsx"
+    ],
+    "links": [
+      "https://example.com/airport-construction-fraud"
+    ],
+    "tags": ["airport", "construction", "infrastructure"]
+  },
+  {
+    "id": "incident_008",
+    "title": "Customs Department Bribery Ring",
+    "description": "Systematic bribery scheme at major border crossings allowing illegal imports and tax evasion in exchange for regular payments.",
+    "category": "bribery",
+    "amount": 22000000000,
+    "year": 2023,
+    "location": "Birgunj Customs Office",
+    "officialInvolved": "Customs Chief Tek Bahadur Rana, Deputy Chief Sunita Kumari Yadav",
+    "status": "approved",
+    "submittedBy": "Customs Officer (Whistleblower)",
+    "submittedAt": "2024-01-15T15:30:00Z",
+    "evidence": [
+      "payment_records.xlsx",
+      "import_documents.pdf",
+      "audio_recordings.zip"
+    ],
+    "links": [
+      "https://example.com/customs-bribery-expose"
+    ],
+    "tags": ["customs", "border", "imports"]
+  },
+  {
+    "id": "incident_009",
+    "title": "Forest Department Illegal Logging",
+    "description": "Forest officials accepting bribes to allow illegal logging operations in protected forest areas, causing significant environmental damage.",
+    "category": "bribery",
+    "amount": 6000000000,
+    "year": 2024,
+    "location": "Chitwan National Park Buffer Zone",
+    "officialInvolved": "District Forest Officer Narayan Prasad Ghimire, Range Post In-charge Mina Devi Chaudhary",
+    "status": "approved",
+    "submittedBy": "Forest Ranger",
+    "submittedAt": "2023-12-20T12:00:00Z",
+    "evidence": [
+      "logging_permits.pdf",
+      "satellite_images.jpg",
+      "witness_statements.pdf"
+    ],
+    "links": [
+      "https://example.com/illegal-logging-scandal"
+    ],
+    "tags": ["forestry", "environment", "logging"]
+  },
+  {
+    "id": "incident_010",
+    "title": "Municipality Water Supply Fraud",
+    "description": "Inflated costs and substandard materials in municipal water supply project, with evidence of collusion between officials and contractors.",
+    "category": "procurement_fraud",
+    "amount": 9000000000,
+    "year": 2023,
+    "location": "Lalitpur Metropolitan City",
+    "officialInvolved": "Water Supply Division Head Krishna Bahadur Magar, Technical Officer Geeta Devi Shrestha",
+    "status": "approved",
+    "submittedBy": "Municipal Engineer",
+    "submittedAt": "2023-11-08T10:45:00Z",
+    "evidence": [
+      "project_contracts.pdf",
+      "material_quality_reports.pdf",
+      "cost_analysis.xlsx"
+    ],
+    "links": [
+      "https://example.com/water-supply-fraud"
+    ],
+    "tags": ["water-supply", "municipal", "infrastructure"]
+  },
+  {
+    "id": "incident_011",
+    "title": "Police Equipment Procurement Scam",
+    "description": "Overpriced and defective equipment purchased for police forces with suspected involvement of senior police officials in the procurement process.",
+    "category": "procurement_fraud",
+    "amount": 4500000000,
+    "year": 2024,
+    "location": "Nepal Police Headquarters",
+    "officialInvolved": "DIG Rajesh Kumar Singh, Procurement Section Chief Inspector Anita Devi Karki",
+    "status": "approved",
+    "submittedBy": "Police Officer",
+    "submittedAt": "2023-10-15T14:20:00Z",
+    "evidence": [
+      "equipment_specifications.pdf",
+      "procurement_records.xlsx"
+    ],
+    "links": [
+      "https://example.com/police-equipment-scam"
+    ],
+    "tags": ["police", "equipment", "law-enforcement"]
+  },
+  {
+    "id": "incident_012",
+    "title": "Agricultural Subsidy Misappropriation",
+    "description": "Fake farmer registrations and ghost beneficiaries in agricultural subsidy programs, with funds diverted to personal accounts of agricultural officials.",
+    "category": "embezzlement",
+    "amount": 7500000000,
+    "year": 2023,
+    "location": "Ministry of Agriculture, Kathmandu",
+    "officialInvolved": "Joint Secretary Bhim Prasad Regmi, Subsidy Distribution Officer Kamala Devi Paudel",
+    "status": "approved",
+    "submittedBy": "Agricultural Extension Officer",
+    "submittedAt": "2023-09-22T11:15:00Z",
+    "evidence": [
+      "farmer_registration_records.xlsx",
+      "subsidy_distribution_data.pdf"
+    ],
+    "links": [
+      "https://example.com/agriculture-subsidy-fraud"
+    ],
+    "tags": ["agriculture", "subsidies", "farmers"]
+  }
+]

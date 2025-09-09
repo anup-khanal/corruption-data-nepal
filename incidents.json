@@ -9,7 +9,7 @@
     "location": "Baluwatar, Kathmandu, Nepal",
     "officialInvolved": "Bijay Kumar Gachhadar, Chandra Deo Joshi, Dambar Shrestha, Deep Basnyat, Chhabi Raj Pant, Madhav Kumar Nepal, Baburam Bhattarai",
     "status": "approved",
-    "submittedBy": "Commission for the Investigation of Abuse of Authority",
+    "submittedBy": "Anonymous",
     "submittedAt": "2020-02-06T00:00:00Z",
     "evidence": [
       "land_documents.pdf",
@@ -35,7 +35,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Bal Krishna Khand, Top Bahadur Rayamajhi, Tek Narayan Pandey, Indrajit Rai, Keshav Prasad Dulal",
     "status": "approved",
-    "submittedBy": "Nepal Police",
+    "submittedBy": "Anonymous",
     "submittedAt": "2023-05-24T00:00:00Z",
     "evidence": [
       "fake_documents.pdf",
@@ -61,7 +61,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Sugat Ratna Kansakar, Shankar Adhikari, Shishir Kumar Dhungana, Jeevan Bahadur Shahi, Rabindra Adhikari",
     "status": "approved",
-    "submittedBy": "Commission for the Investigation of Abuse of Authority",
+    "submittedBy": "Anonymous",
     "submittedAt": "2024-04-01T00:00:00Z",
     "evidence": [
       "pac_report_2018.pdf",
@@ -87,7 +87,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Ishwar Pokharel, Bhanu Bhakta Dhakal, Yadav Koirala, Som Bahadur Thapa, Chudamani Sharma",
     "status": "approved",
-    "submittedBy": "Public Accounts Committee",
+    "submittedBy": "Anonymous",
     "submittedAt": "2020-09-14T00:00:00Z",
     "evidence": [
       "procurement_records.xlsx",
@@ -113,7 +113,7 @@
     "location": "Gorkha and Dhading, Nepal",
     "officialInvolved": "Baburam Bhattarai, KP Sharma Oli, Sher Bahadur Deuba, Pushpa Kamal Dahal",
     "status": "approved",
-    "submittedBy": "Public Accounts Committee",
+    "submittedBy": "Anonymous",
     "submittedAt": "2020-10-08T00:00:00Z",
     "evidence": [
       "project_reports.pdf",
@@ -139,7 +139,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Gokul Baskota, Bijaya Prakash Mishra, Navin Kumar Ghimire",
     "status": "approved",
-    "submittedBy": "Media Investigation",
+    "submittedBy": "Anonymous",
     "submittedAt": "2020-02-20T00:00:00Z",
     "evidence": [
       "audio_recordings.zip",
@@ -165,7 +165,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Om Bikram Rana, Hem Bahadur Gurung, Ramesh Chand Thakuri, Shambhu Bharati, Michael Rider",
     "status": "approved",
-    "submittedBy": "Commission for the Investigation of Abuse of Authority",
+    "submittedBy": "Anonymous",
     "submittedAt": "2011-06-08T00:00:00Z",
     "evidence": [
       "procurement_records.xlsx",
@@ -191,7 +191,7 @@
     "location": "Tribhuvan International Airport, Kathmandu, Nepal",
     "officialInvolved": "Daoxin Wang, Krishna Bahadur Mahara, Rahul Mahara, Amala Rokka, Chandra Ghale",
     "status": "approved",
-    "submittedBy": "Department of Revenue Investigation",
+    "submittedBy": "Anonymous",
     "submittedAt": "2023-07-18T00:00:00Z",
     "evidence": [
       "seized_gold_photos.jpg",
@@ -217,7 +217,7 @@
     "location": "Kathmandu, Nepal",
     "officialInvolved": "Niraj Govinda Shrestha, Upendra Mahato, Bhawana Singh Shrestha, Satish Lal Acharya",
     "status": "approved",
-    "submittedBy": "Large Taxpayers’ Office",
+    "submittedBy": "Anonymous",
     "submittedAt": "2019-12-26T00:00:00Z",
     "evidence": [
       "tax_records.xlsx",
@@ -231,6 +231,136 @@
       "tax-evasion",
       "offshore-companies",
       "telecom"
+    ]
+  },
+  {
+    "id": "incident_010",
+    "title": "Giribandhu Tea Estate Scandal",
+    "description": "Illegal attempts to swap and sell protected tea estate land for commercial real estate development, involving collusion between estate owners, politicians, and land brokers, in violation of land reform laws.",
+    "category": "embezzlement",
+    "amount": 100000000000,
+    "year": 2021,
+    "location": "Birtamod, Jhapa District, Nepal",
+    "officialInvolved": "KP Sharma Oli, Pushpa Kamal Dahal, Rabi Lamichhane, Yogesh Bhattarai, Bishwa Prakash Sharma",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-02-07T00:00:00Z",
+    "evidence": [
+      "supreme_court_verdict.pdf",
+      "writ_petition.pdf"
+    ],
+    "links": [
+      "https://en.wikipedia.org/wiki/Giri_Bandhu_Tea_Estate_Corruption",
+      "https://kathmandupost.com/national/2024/06/04/mayor-joins-congress-in-accusing-oli-in-giri-bandhu-land-scam"
+    ],
+    "tags": [
+      "land-swap",
+      "tea-estate",
+      "political-corruption"
+    ]
+  },
+  {
+    "id": "incident_011",
+    "title": "Pokhara International Airport Corruption",
+    "description": "Massive irregularities and embezzlement during the construction of the China-financed airport, including overpricing, substandard work, and safety flaws.",
+    "category": "procurement_fraud",
+    "amount": 14000000000,
+    "year": 2017,
+    "location": "Pokhara, Nepal",
+    "officialInvolved": "Bureaucrats, politicians, Chinese company CAMCE representatives",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-04-18T00:00:00Z",
+    "evidence": [
+      "probe_report.pdf",
+      "financial_records.xlsx"
+    ],
+    "links": [
+      "https://www.nytimes.com/2025/04/18/business/china-nepal-airport.html",
+      "https://kathmandupost.com/national/2025/04/18/billions-embezzled-in-pokhara-airport-works-probe-finds"
+    ],
+    "tags": [
+      "airport-construction",
+      "china-loan",
+      "embezzlement"
+    ]
+  },
+  {
+    "id": "incident_012",
+    "title": "Tax Settlement Commission Scandal",
+    "description": "Officials illegally waived billions in taxes for businesses, causing massive revenue loss through improper settlements.",
+    "category": "embezzlement",
+    "amount": 10020000000,
+    "year": 2014,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Chudamani Sharma, Lumbadhoj Mahat, Umesh Dhakal",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2017-07-16T00:00:00Z",
+    "evidence": [
+      "tax_records.xlsx",
+      "settlement_documents.pdf"
+    ],
+    "links": [
+      "https://kathmandupost.com/national/2023/06/21/convicted-former-office-bearers-of-tax-settlement-commission-sentenced-to-nine-years-in-jail",
+      "https://myrepublica.nagariknetwork.com/news/ciaa-registers-corruption-case-against-tsc-officials-including-ird-chief-sharma"
+    ],
+    "tags": [
+      "tax-waiver",
+      "revenue-loss",
+      "government-officials"
+    ]
+  },
+  {
+    "id": "incident_013",
+    "title": "Nepal Oil Corporation Land Purchase Scam",
+    "description": "Irregularities and embezzlement in purchasing land for petroleum storage facilities, with overpriced deals and misappropriation of funds.",
+    "category": "procurement_fraud",
+    "amount": 1500000000,
+    "year": 2017,
+    "location": "Jhapa, Sarlahi, Chitwan, Rupandehi, Nepal",
+    "officialInvolved": "NOC Chief Gopal Bahadur Khadka, other NOC officials",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2017-09-11T00:00:00Z",
+    "evidence": [
+      "land_purchase_documents.pdf",
+      "financial_audit.xlsx"
+    ],
+    "links": [
+      "https://kathmandupost.com/money/2017/08/20/noc-chief-defiant-about-controversial-land-deals",
+      "https://myrepublica.nagariknetwork.com/news/rs-400-million-plus-scam-in-noc-land-buy-in-jhapa-lawmakers"
+    ],
+    "tags": [
+      "land-purchase",
+      "oil-storage",
+      "embezzlement"
+    ]
+  },
+  {
+    "id": "incident_014",
+    "title": "Cooperatives Embezzlement Scandal",
+    "description": "Widespread fraud in cooperative societies involving embezzlement of depositors' funds, leading to massive losses and public protests.",
+    "category": "embezzlement",
+    "amount": 87000000000,
+    "year": 2024,
+    "location": "Various locations across Nepal",
+    "officialInvolved": "Rabi Lamichhane, GB Rai, Rishikesh Pokharel, other cooperative officials",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-06-01T00:00:00Z",
+    "evidence": [
+      "deposit_records.xlsx",
+      "fraud_cases.pdf"
+    ],
+    "links": [
+      "https://www.thenews.coop/new-protests-in-nepals-co-op-embezzlement-scandal/",
+      "https://kathmandupost.com/national/2025/05/04/government-makes-yet-another-promise-to-cooperatives-victims"
+    ],
+    "tags": [
+      "cooperatives",
+      "depositor-fraud",
+      "protests"
     ]
   }
 ]

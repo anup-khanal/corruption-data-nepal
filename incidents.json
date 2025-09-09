@@ -439,5 +439,112 @@
       "procurement",
       "embezzlement"
     ]
+  },
+  {
+    "id": "incident_018",
+    "title": "Lauda Air Lease Scandal",
+    "description": "Irregularities and corruption in the leasing of a Boeing 767 aircraft from Lauda Air for Royal Nepal Airlines Corporation (RNAC), causing significant financial loss to the state airline. The deal was made without a proper tender process and at inflated costs.",
+    "category": "procurement_fraud",
+    "amount": 380000000,
+    "year": 2001,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Girija Prasad Koirala, Chakra Prasad Bastola, Hari Bhakta Shrestha, Tirtha Lal Shrestha",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2001-06-01T00:00:00Z",
+    "evidence": [
+      "charge_sheet.pdf",
+      "lease_agreement.pdf"
+    ],
+    "links": [
+      "https://en.wikipedia.org/wiki/Lauda_Air_scandal",
+      "https://kathmandupost.com/miscellaneous/2014/11/12/sc-acquits-all-accused-in-lauda-scam"
+    ],
+    "tags": [
+      "aviation",
+      "aircraft-lease",
+      "rnac",
+      "procurement"
+    ]
+  },
+  {
+    "id": "incident_019",
+    "title": "Armed Police Force Embezzlement Scandal (Kosh Raj Onta)",
+    "description": "Former Inspector General of Armed Police Force, Kosh Raj Onta, and over 20 other officials were charged with embezzling millions by creating fake bills and vouchers for transporting goods and supplies to various APF units.",
+    "category": "embezzlement",
+    "amount": 167700000,
+    "year": 2016,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Kosh Raj Onta, Shailendra Shrestha, Sudeep Thapa, Ram Kumar Basnet",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2016-03-27T00:00:00Z",
+    "evidence": [
+      "fake_bills.xlsx",
+      "charge_sheet.pdf"
+    ],
+    "links": [
+      "https://kathmandupost.com/national/2021/04/18/former-chief-of-armed-police-force-kosh-raj-onta-convicted-of-corruption",
+      "https://thehimalayantimes.com/nepal/ciaa-files-corruption-case-against-former-apf-igp-kosh-raj-onta-21-others"
+    ],
+    "tags": [
+      "police",
+      "embezzlement",
+      "logistics-fraud",
+      "apf"
+    ]
+  },
+  {
+    "id": "incident_020",
+    "title": "Diplomatic Passport Misuse Scandal",
+    "description": "Several Constituent Assembly members and officials were implicated in misusing their diplomatic 'red' passports to illegally send people abroad, often for financial gain. The scheme involved passing off unrelated individuals as part of official delegations.",
+    "category": "abuse_of_authority",
+    "amount": 20000000,
+    "year": 2010,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Dolma Tamang, Narayani Devi Pradhan, Bimala KC, Gayatri Shah, Shiva Pujan Ray Yadav",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2010-12-01T00:00:00Z",
+    "evidence": [
+      "passport_records.pdf",
+      "investigation_report.pdf"
+    ],
+    "links": [
+      "https://myrepublica.nagariknetwork.com/news/15-lawmakers-face-ciaa-probe-in-red-passport-scam/",
+      "https://kathmandupost.com/uncategorized/2011/04/28/ciaa-files-case-against-3-ca-members"
+    ],
+    "tags": [
+      "passport-fraud",
+      "human-trafficking",
+      "political-corruption"
+    ]
+  },
+  {
+    "id": "incident_021",
+    "title": "National Payment Gateway Scandal",
+    "description": "Corruption in the procurement of the National Payment Gateway system, which was purchased for an exorbitant price without proper competitive bidding and was never brought into effective use, causing a significant loss to the state.",
+    "category": "procurement_fraud",
+    "amount": 250000000,
+    "year": 2022,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Sunil Paudel, Sanjay Sharma, Ram Bahadur Budha, Safal Shrestha",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2022-10-16T00:00:00Z",
+    "evidence": [
+      "procurement_documents.pdf",
+      "charge_sheet.pdf"
+    ],
+    "links": [
+      "https://kathmandupost.com/national/2022/10/16/ciaa-files-graft-case-against-acting-secretary-and-six-others",
+      "https://english.onlinekhabar.com/national-payment-gateway-scam.html"
+    ],
+    "tags": [
+      "it-procurement",
+      "payment-gateway",
+      "embezzlement",
+      "government-contract"
+    ]
   }
 ]

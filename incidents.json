@@ -546,5 +546,484 @@
       "embezzlement",
       "government-contract"
     ]
+  },
+  {
+    "id": "incident_022",
+    "title": "33kg Gold Smuggling & Sanam Shakya Murder Case",
+    "description": "Authorities seized ~33.5kg of gold that passed undetected through TIA customs; the case later linked to the torture and murder of carrier Sanam Shakya. Multiple arrests, trials, and life sentences followed.",
+    "category": "smuggling",
+    "amount": null,
+    "year": 2017,
+    "location": "TIA, Kathmandu & Morang/Siraha, Nepal",
+    "officialInvolved": "Alleged mastermind Chudamani Upreti 'Gore' and associates",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2017/08/21/33-kg-gold-smuggling-case-main-accused-pantha-arrested",
+      "https://kathmandupost.com/national/2019/03/13/everything-you-need-to-know-about-the-biggest-gold-smuggling-racket-in-nepal",
+      "https://kathmandupost.com/province-no-1/2021/10/05/six-including-main-accused-gore-handed-life-sentences-in-gold-smuggling-case"
+    ],
+    "tags": [
+      "gold-smuggling",
+      "TIA",
+      "murder"
+    ]
+  },
+  {
+    "id": "incident_023",
+    "title": "Fake VAT Bill/Refund Scam",
+    "description": "Widespread creation and use of fake VAT invoices to claim refunds or evade taxes; DRI filed cases against networks issuing bogus VAT bills worth billions.",
+    "category": "tax-fraud",
+    "amount": 1750000000,
+    "year": 2011,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Multiple business operators and intermediaries identified by DRI",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/valley/2019/03/06/test-20190306072240",
+      "https://kathmandupost.com/money/2021/04/14/tax-authorities-bust-fake-vat-bill-racket",
+      "https://thehimalayantimes.com/business/dri-seeks-rs-198-37m-fake-vat-bill-scam"
+    ],
+    "tags": [
+      "VAT",
+      "tax-evasion",
+      "fake-invoices"
+    ]
+  },
+  {
+    "id": "incident_024",
+    "title": "Nepal Oil Corporation Land Purchase Irregularities",
+    "description": "NOC purchased land for fuel depots at prices well above market, with parliamentary and CIAA probes citing misappropriation from hundreds of millions up to over a billion rupees.",
+    "category": "procurement-fraud",
+    "amount": 1260000000,
+    "year": 2017,
+    "location": "Jhapa, Sarlahi, Chitwan & Rupandehi, Nepal",
+    "officialInvolved": "Senior NOC management and brokers (as probed by House panels/CIAA)",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2017/08/07/noc-deliberately-ignored-procedure",
+      "https://kathmandupost.com/money/2017/08/12/house-sub-committee-says-noc-violated-procedure",
+      "https://kathmandupost.com/valley/2018/01/23/ciaa-preliminary-report-finds-irregularities-in-noc-land-deals"
+    ],
+    "tags": [
+      "NOC",
+      "land-deal",
+      "fuel-depots"
+    ]
+  },
+  {
+    "id": "incident_025",
+    "title": "Nepal Airlines A330 Wide-Body Procurement Scandal",
+    "description": "Parliamentary probes and CIAA cases alleged irregularities in the purchase of two Airbus A330s, including overvaluation and flawed process.",
+    "category": "procurement-fraud",
+    "amount": null,
+    "year": 2018,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Former NAC officials including then MD/CEO; suppliers/international intermediaries",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2018/12/24/house-panel-finds-irregularities-in-nepal-airlines-wide-body-purchase",
+      "https://kathmandupost.com/national/2020/02/05/anti-graft-body-files-case-against-8-in-nepal-airlines-wide-body-procurement"
+    ],
+    "tags": [
+      "aviation",
+      "widebody",
+      "procurement"
+    ]
+  },
+  {
+    "id": "incident_026",
+    "title": "Omni Group COVID-19 Procurement Controversy",
+    "description": "Health Ministry’s fast-tracked deal with Omni for PPE/testing kits drew accusations of overpricing and favoritism; the contract was later scrapped.",
+    "category": "procurement-fraud",
+    "amount": null,
+    "year": 2020,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Health Ministry officials; Omni Group representatives",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2020/03/29/health-ministry-terminates-controversial-omni-deal-for-medical-supplies",
+      "https://kathmandupost.com/national/2020/03/27/health-ministry-under-fire-for-awarding-contract-to-omni"
+    ],
+    "tags": [
+      "covid-19",
+      "medical-procurement",
+      "PPE"
+    ]
+  },
+  {
+    "id": "incident_027",
+    "title": "Security Printing Press Bribery Audio (Gokul Baskota)",
+    "description": "Leaked audio purportedly captured Minister Gokul Baskota negotiating hefty kickbacks in a multi-billion-rupee security printing press deal; he resigned afterward.",
+    "category": "bribery",
+    "amount": null,
+    "year": 2020,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Gokul Prasad Baskota (then Minister of Communication and Information Technology)",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2020/02/20/communications-minister-gokul-baskota-resigns-following-leaked-audio",
+      "https://kathmandupost.com/national/2020/02/20/leaked-audio-suggests-communications-minister-baskota-negotiated-commission"
+    ],
+    "tags": [
+      "security-printing",
+      "kickbacks",
+      "resignation"
+    ]
+  },
+  {
+    "id": "incident_028",
+    "title": "Tax Settlement Commission Corruption Case",
+    "description": "CIAA arrested then Tax Settlement Commission member-secretary Chudamani Sharma for alleged revenue leakage and irregular tax waivers via the commission.",
+    "category": "abuse-of-authority",
+    "amount": null,
+    "year": 2017,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Chudamani Sharma; other commission members",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2017/06/03/ciaa-detains-tax-official-chudamani-sharma",
+      "https://kathmandupost.com/money/2017/06/04/chudamani-sharma-detained-over-irregularities-at-tax-settlement-commission"
+    ],
+    "tags": [
+      "tax-waiver",
+      "CIAA",
+      "revenue-leakage"
+    ]
+  },
+  {
+    "id": "incident_029",
+    "title": "Nepal Trust Land Lease to Yeti Holdings",
+    "description": "The Nepal Trust leased prime public land to Yeti Holdings/affiliates for luxury hotels, drawing allegations of undervaluation, influence and conflict of interest.",
+    "category": "land-grab",
+    "amount": null,
+    "year": 2019,
+    "location": "Kathmandu & other locations, Nepal",
+    "officialInvolved": "Nepal Trust officials; Yeti Holdings/Hyatt-related entities",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2019/10/16/why-the-government-leased-land-to-yeti-holdings-is-a-mystery",
+      "https://kathmandupost.com/national/2019/10/17/nepal-trust-says-it-followed-all-legal-procedures-to-lease-land-to-yeti-holdings"
+    ],
+    "tags": [
+      "public-land",
+      "lease",
+      "hospitality"
+    ]
+  },
+  {
+    "id": "incident_030",
+    "title": "Bansbari Leather & Shoe Factory Land Deal Controversy",
+    "description": "After privatization, prime factory land was parceled out in questionable deals over years; probes alleged illegal transfers and undervaluation.",
+    "category": "land-grab",
+    "amount": null,
+    "year": 2017,
+    "location": "Maharajgunj/Bansbari, Kathmandu, Nepal",
+    "officialInvolved": "Former officials and private buyers",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2017/04/02/bansbari-land-scam-who-got-what",
+      "https://kathmandupost.com/national/2017/03/31/land-grab-at-bansbari-a-classic-case-of-corruption"
+    ],
+    "tags": [
+      "privatization",
+      "factory-land",
+      "illegal-transfer"
+    ]
+  },
+  {
+    "id": "incident_031",
+    "title": "Oriental Savings & Credit Cooperative Scam",
+    "description": "Thousands of depositors alleged fraud after cooperative funds were diverted into real-estate projects; long-running case with arrests and court orders.",
+    "category": "financial-fraud",
+    "amount": null,
+    "year": 2013,
+    "location": "Kathmandu/Lalitpur, Nepal",
+    "officialInvolved": "Promoter Sudhir Basnet and associates",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2023/07/05/builder-sudhir-basnet-arrested-in-fraud-case",
+      "https://kathmandupost.com/money/2014/01/07/house-panel-for-action-against-oriental",
+      "https://kathmandupost.com/money/2013/07/26/oriental-coop-fraud-victims-stage-protest"
+    ],
+    "tags": [
+      "cooperative",
+      "real-estate",
+      "depositors"
+    ]
+  },
+  {
+    "id": "incident_032",
+    "title": "Suryadarshan Cooperative Fraud (Kathmandu)",
+    "description": "Savings and credit cooperative accused of embezzling depositors’ money through dubious lending and insider deals; DPO/CIAA actions followed.",
+    "category": "financial-fraud",
+    "amount": null,
+    "year": 2023,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Cooperative promoters and managers",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2023/06/05/police-arrest-suryadarshan-cooperative-chairman",
+      "https://kathmandupost.com/money/2023/06/10/government-forms-probe-committee-into-cooperative-scams"
+    ],
+    "tags": [
+      "cooperative",
+      "embezzlement",
+      "depositors"
+    ]
+  },
+  {
+    "id": "incident_033",
+    "title": "Swarnalakshmi Cooperative Fraud (Butwal)",
+    "description": "Cooperative in Butwal accused of swindling depositors via unauthorized loans and fund diversion; arrests and investigations reported.",
+    "category": "financial-fraud",
+    "amount": null,
+    "year": 2023,
+    "location": "Butwal, Nepal",
+    "officialInvolved": "Promoters/officials of Swarnalakshmi Cooperative",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2023/06/20/wave-of-cooperative-scams-across-nepal"
+    ],
+    "tags": [
+      "cooperative",
+      "Butwal",
+      "fraud"
+    ]
+  },
+  {
+    "id": "incident_034",
+    "title": "Patanjali (Ayodhyapuri) Land Scam",
+    "description": "CIAA filed a large corruption case alleging irregular transfer/lease of public land to Patanjali-linked entities; former PM Madhav Kumar Nepal and others charged.",
+    "category": "land-grab",
+    "amount": 185850000,
+    "year": 2025,
+    "location": "Ayodhyapuri/Chitwan & Kathmandu, Nepal",
+    "officialInvolved": "Former PM Madhav Kumar Nepal; former ministers; officials; bank executives",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2025/06/05/former-pm-madhav-nepal-charged-in-patanjali-land-scam",
+      "https://kathmandupost.com/national/2025/06/25/ex-pm-nepal-spared-jail-in-patanjali-land-scam",
+      "https://thehimalayantimes.com/kathmandu/ciaa-charges-93-including-ex-pm-nepal-in-patanjali-land-scam"
+    ],
+    "tags": [
+      "public-land",
+      "Patanjali",
+      "CIAA"
+    ]
+  },
+  {
+    "id": "incident_035",
+    "title": "Teramocs/National Payment Switch Procurement (NTA)",
+    "description": "CIAA chargesheeted ex-minister Mohan Basnet and NTA officials over alleged irregularities in awarding Teramocs a multi-billion-rupee telecom project.",
+    "category": "procurement-fraud",
+    "amount": 3210000000,
+    "year": 2025,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Mohan Bahadur Basnet; senior NTA officials",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2025/05/16/ciaa-chargesheets-ex-minister-officials-in-teramocs-scam"
+    ],
+    "tags": [
+      "NTA",
+      "telecom",
+      "procurement"
+    ]
+  },
+  {
+    "id": "incident_036",
+    "title": "Nepal Tourism Board Corruption (Legacy)",
+    "description": "Allegations of embezzlement and irregular expenses at NTB in the early 2000s led to arrests and reforms after a series of exposés.",
+    "category": "embezzlement",
+    "amount": null,
+    "year": 2003,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Then NTB officials and board members",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2014/02/13/ntb-corruption-scandal-revisited"
+    ],
+    "tags": [
+      "tourism",
+      "embezzlement",
+      "public-agency"
+    ]
+  },
+  {
+    "id": "incident_037",
+    "title": "National Trading Limited Sugar Import Irregularities",
+    "description": "State trading firm’s sugar import and auction processes drew allegations of collusion and losses to the state.",
+    "category": "procurement-fraud",
+    "amount": null,
+    "year": 2013,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "National Trading Limited officials and private bidders",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2013/09/23/ntl-in-controversy-over-sugar-import"
+    ],
+    "tags": [
+      "sugar-import",
+      "collusion",
+      "state-loss"
+    ]
+  },
+  {
+    "id": "incident_038",
+    "title": "Customs Officials Implicated in Gold Smuggling (2023)",
+    "description": "Following a major 2023 seizure, multiple customs staffers were arrested for alleged facilitation of smuggling rings using TIA.",
+    "category": "smuggling",
+    "amount": null,
+    "year": 2023,
+    "location": "TIA, Kathmandu, Nepal",
+    "officialInvolved": "Customs staff including senior officers (as reported)",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2023/09/09/three-customs-staffers-arrested-in-connection-with-gold-smuggling-case"
+    ],
+    "tags": [
+      "gold-smuggling",
+      "customs",
+      "TIA"
+    ]
+  },
+  {
+    "id": "incident_039",
+    "title": "Illegal Offshore Investments by Nepali Businesspersons",
+    "description": "Investigations revealed Nepalis investing in offshore companies to evade taxes and launder wealth, contravening Nepali law.",
+    "category": "tax-evasion",
+    "amount": null,
+    "year": 2021,
+    "location": "Overseas (offshore) / Nepal",
+    "officialInvolved": "Multiple businesspersons (as identified by CIJ Nepal investigation)",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://www.cijnepal.org/sixteen-nepalis-have-illegally-invested-in-offshore-companies-in-overseas-tax-havens"
+    ],
+    "tags": [
+      "offshore",
+      "tax-haven",
+      "illicit-finance"
+    ]
+  },
+  {
+    "id": "incident_040",
+    "title": "Nationwide Cooperative Scam Probe (2023)",
+    "description": "Government formed a high-level committee to investigate a wave of cooperative frauds across Nepal after depositors’ complaints surged.",
+    "category": "financial-fraud",
+    "amount": null,
+    "year": 2023,
+    "location": "Nationwide, Nepal",
+    "officialInvolved": "Various cooperative promoters; government probe committee",
+    "status": "pending",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/money/2023/06/10/government-forms-probe-committee-into-cooperative-scams"
+    ],
+    "tags": [
+      "cooperative",
+      "probe-committee",
+      "financial-fraud"
+    ]
+  },
+  {
+    "id": "incident_041",
+    "title": "2019 DRI Case on Fake VAT Bill Network",
+    "description": "DRI filed a Kathmandu District Court case against 24 individuals accused of evading Rs 1.75 billion via fake VAT bills.",
+    "category": "tax-fraud",
+    "amount": 1750000000,
+    "year": 2019,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "24 individuals named by DRI",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/valley/2019/03/06/test-20190306072240"
+    ],
+    "tags": [
+      "VAT",
+      "fake-bills",
+      "DRI"
+    ]
+  },
+  {
+    "id": "incident_042",
+    "title": "Pajero Tax-Exempt Vehicle Scandal (1990s)",
+    "description": "Lawmakers exploited duty-free vehicle quotas to import luxury SUVs like Pajeros, triggering a major public outcry and reforms.",
+    "category": "abuse-of-authority",
+    "amount": null,
+    "year": 1994,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Multiple MPs and officials of the era",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-09-09T03:54:19Z",
+    "evidence": [],
+    "links": [
+      "https://kathmandupost.com/national/2014/05/31/duty-free-vehicle-scandal-past-and-present"
+    ],
+    "tags": [
+      "duty-free",
+      "vehicles",
+      "MPs"
+    ]
   }
 ]

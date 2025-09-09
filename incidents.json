@@ -1,260 +1,443 @@
 [
   {
     "id": "incident_001",
-    "title": "Giribandhu Tea Estate Corporation Scandal",
-    "description": "Major financial irregularities discovered in the state-owned tea corporation involving misappropriation of funds allocated for infrastructure development and employee welfare programs.",
+    "title": "Lalita Niwas Land Scam",
+    "description": "Government land around Lalita Niwas was illegally transferred to private individuals through collusion with officials and politicians, involving forgery of documents and embezzlement of billions in land value.",
     "category": "embezzlement",
-    "amount": 56000000000,
-    "year": 2024,
-    "location": "Jhapa, Nepal",
-    "officialInvolved": "Managing Director Ram Bahadur Thapa, Finance Director Sita Kumari Sharma",
+    "amount": 6840000000,
+    "year": 2010,
+    "location": "Baluwatar, Kathmandu, Nepal",
+    "officialInvolved": "Bijay Kumar Gachhadar, Chandra Deo Joshi, Dambar Shrestha, Deep Basnyat, Chhabi Raj Pant, Madhav Kumar Nepal, Baburam Bhattarai",
     "status": "approved",
-    "submittedBy": "Investigative Journalist",
-    "submittedAt": "2024-08-15T10:30:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2020-02-06T00:00:00Z",
     "evidence": [
-      "audit_report_2024.pdf",
-      "bank_statements.pdf"
+      "land_documents.pdf",
+      "charge_sheet.xlsx"
     ],
     "links": [
-      "https://example.com/news-article-1",
-      "https://example.com/government-report"
+      "https://en.wikipedia.org/wiki/Lalita_Niwas_land_grab_scam",
+      "https://kathmandupost.com/national/2023/08/28/310-charged-with-forgery-in-lalita-niwas-land-scam"
     ],
-    "tags": ["tea-estate", "state-owned", "infrastructure"]
+    "tags": [
+      "land-grab",
+      "government-land",
+      "forgery"
+    ]
   },
   {
     "id": "incident_002",
-    "title": "Road Construction Contract Fraud",
-    "description": "Inflated contracts and substandard materials used in highway construction project, resulting in significant financial losses and compromised road quality.",
-    "category": "procurementFraud",
-    "amount": 25000000000,
-    "year": 2024,
-    "location": "Kathmandu-Terai Highway",
-    "officialInvolved": "Project Director Hari Prasad Poudel, Procurement Officer Kamala Devi Shrestha",
+    "title": "Fake Bhutanese Refugee Scam",
+    "description": "Politicians and bureaucrats created fake Bhutanese refugee documents to traffic Nepali citizens to the US and other countries, extorting millions from victims.",
+    "category": "bribery",
+    "amount": 288170000,
+    "year": 2023,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Bal Krishna Khand, Top Bahadur Rayamajhi, Tek Narayan Pandey, Indrajit Rai, Keshav Prasad Dulal",
     "status": "approved",
-    "submittedBy": "Civil Engineer",
-    "submittedAt": "2024-07-22T14:15:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2023-05-24T00:00:00Z",
     "evidence": [
-      "contract_documents.pdf",
-      "quality_test_reports.pdf",
-      "photos_substandard_work.zip"
+      "fake_documents.pdf",
+      "bank_receipts.xlsx"
     ],
     "links": [
-      "https://example.com/highway-project-news"
+      "https://en.wikipedia.org/wiki/Bhutanese_refugees_scam",
+      "https://kathmandupost.com/national/2023/05/24/fake-bhutanese-refugee-scam-cases-against-30-individuals-filed-in-district-court"
     ],
-    "tags": ["road-construction", "highway", "contracts"]
+    "tags": [
+      "refugee-fraud",
+      "trafficking",
+      "organized-crime"
+    ]
   },
   {
     "id": "incident_003",
-    "title": "Medical Equipment Procurement Scandal",
-    "description": "Overpriced medical equipment purchased during COVID-19 pandemic with suspected kickbacks to procurement officials.",
-    "category": "procurementFraud",
-    "amount": 15000000000,
-    "year": 2023,
-    "location": "Ministry of Health, Kathmandu",
-    "officialInvolved": "Joint Secretary Dr. Bishnu Prasad Regmi, Procurement Committee Chairman Laxmi Narayan Joshi",
+    "title": "Wide-Body Aircraft Procurement Scandal",
+    "description": "Corruption in the procurement of two Airbus A330-200 jets by Nepal Airlines, involving inflated costs, bribes, and financial mismanagement leading to billions in losses.",
+    "category": "procurement_fraud",
+    "amount": 14700000000,
+    "year": 2017,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Sugat Ratna Kansakar, Shankar Adhikari, Shishir Kumar Dhungana, Jeevan Bahadur Shahi, Rabindra Adhikari",
     "status": "approved",
-    "submittedBy": "Healthcare Worker",
-    "submittedAt": "2024-06-10T09:45:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-04-01T00:00:00Z",
     "evidence": [
-      "procurement_records.xlsx",
-      "price_comparison.pdf"
+      "pac_report_2018.pdf",
+      "ciaa_case_files.pdf"
     ],
     "links": [
-      "https://example.com/covid-equipment-scandal"
+      "https://english.nepalnews.com/s/explainers/everything-you-need-to-know-about-nepals-wide-body-corruption-scandal/",
+      "https://english.onlinekhabar.com/corruption-scandals-no-election-issue.html"
     ],
-    "tags": ["medical-equipment", "covid-19", "healthcare"]
+    "tags": [
+      "aviation",
+      "procurement",
+      "bribery"
+    ]
   },
   {
     "id": "incident_004",
-    "title": "Education Ministry Scholarship Fraud",
-    "description": "Fake scholarship recipients and ghost students identified in government scholarship programs, with funds diverted to personal accounts.",
-    "category": "embezzlement",
-    "amount": 8000000000,
-    "year": 2023,
-    "location": "Ministry of Education, Kathmandu",
-    "officialInvolved": "Under Secretary Ganga Prasad Adhikari, Scholarship Section Chief Radha Krishna Bhattarai",
+    "title": "Omni Group COVID Procurement Scandal",
+    "description": "Overpriced procurement of health equipment during the Covid-19 pandemic, bypassing procedures and involving irregularities in contracts.",
+    "category": "procurement_fraud",
+    "amount": 1000000000,
+    "year": 2020,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Ishwar Pokharel, Bhanu Bhakta Dhakal, Yadav Koirala, Som Bahadur Thapa, Chudamani Sharma",
     "status": "approved",
-    "submittedBy": "Education Activist",
-    "submittedAt": "2024-05-18T16:20:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2020-09-14T00:00:00Z",
     "evidence": [
-      "scholarship_records.xlsx",
-      "fake_documents.pdf"
+      "procurement_records.xlsx",
+      "quality_reports.pdf"
     ],
     "links": [
-      "https://example.com/scholarship-fraud-expose"
+      "https://kathmandupost.com/national/2020/09/14/omni-group-could-have-been-blacklisted-for-three-years-instead-of-just-one",
+      "https://english.onlinekhabar.com/corruption-scandals-no-election-issue.html"
     ],
-    "tags": ["education", "scholarships", "students"]
+    "tags": [
+      "medical-equipment",
+      "covid-19",
+      "healthcare"
+    ]
   },
   {
     "id": "incident_005",
-    "title": "Local Government Land Grab",
-    "description": "Municipal officials illegally allocated public land to private developers at below-market rates in exchange for personal benefits.",
+    "title": "Budhigandaki Hydropower Corruption",
+    "description": "Alleged embezzlement and irregularities in the Budhigandaki Hydropower Project, involving kickbacks and mismanagement of funds.",
     "category": "bribery",
-    "amount": 12000000000,
-    "year": 2024,
-    "location": "Pokhara Metropolitan City",
-    "officialInvolved": "Mayor Man Bahadur Gurung, Land Revenue Officer Dil Maya Tamang",
+    "amount": 9000000000,
+    "year": 2012,
+    "location": "Gorkha and Dhading, Nepal",
+    "officialInvolved": "Baburam Bhattarai, KP Sharma Oli, Sher Bahadur Deuba, Pushpa Kamal Dahal",
     "status": "approved",
-    "submittedBy": "Local Resident",
-    "submittedAt": "2024-04-25T11:30:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2020-10-08T00:00:00Z",
     "evidence": [
-      "land_allocation_documents.pdf",
-      "market_price_analysis.pdf"
+      "project_reports.pdf",
+      "financial_analysis.xlsx"
     ],
     "links": [
-      "https://example.com/pokhara-land-scandal"
+      "https://english.onlinekhabar.com/corruption-scandals-no-election-issue.html",
+      "https://kathmandupost.com/money/2022/09/02/budhi-gandaki-hydropower-project-registered-as-public-company"
     ],
-    "tags": ["land-grab", "municipal", "real-estate"]
+    "tags": [
+      "hydropower",
+      "infrastructure",
+      "embezzlement"
+    ]
   },
   {
     "id": "incident_006",
-    "title": "Hydropower Project Kickbacks",
-    "description": "Senior officials received substantial kickbacks for approving environmentally questionable hydropower projects without proper impact assessments.",
+    "title": "Gokul Baskota Bribe Scandal",
+    "description": "Communications Minister Gokul Baskota allegedly demanded a bribe for a printing press deal, exposed through leaked audio recordings.",
     "category": "bribery",
-    "amount": 35000000000,
-    "year": 2023,
-    "location": "Gandaki Province",
-    "officialInvolved": "Energy Secretary Surya Bahadur Thapa, Environmental Assessment Director Prem Lal Maharjan",
+    "amount": 700000000,
+    "year": 2020,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Gokul Baskota, Bijaya Prakash Mishra, Navin Kumar Ghimire",
     "status": "approved",
-    "submittedBy": "Environmental Activist",
-    "submittedAt": "2024-03-12T13:45:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2020-02-20T00:00:00Z",
     "evidence": [
-      "environmental_reports.pdf",
-      "approval_documents.pdf",
-      "bank_transfers.xlsx"
+      "audio_recordings.zip",
+      "contract_documents.pdf"
     ],
     "links": [
-      "https://example.com/hydropower-corruption"
+      "https://myrepublica.nagariknetwork.com/news/minister-baskota-bargains-for-700-million-bribe-with-audio/",
+      "https://english.onlinekhabar.com/corruption-scandals-no-election-issue.html"
     ],
-    "tags": ["hydropower", "environment", "energy"]
+    "tags": [
+      "bribery",
+      "printing-press",
+      "government-contract"
+    ]
   },
   {
     "id": "incident_007",
-    "title": "Airport Construction Overruns",
-    "description": "Massive cost overruns in regional airport construction with evidence of inflated invoices and phantom contractors.",
-    "category": "procurementFraud",
-    "amount": 18000000000,
-    "year": 2024,
-    "location": "Bharatpur Airport",
-    "officialInvolved": "Airport Development Committee Chairman Keshav Raj Pandey, Chief Engineer Sarita Devi Karki",
+    "title": "Sudan APC Scam",
+    "description": "Embezzlement in the procurement of armoured vehicles for UN peacekeeping mission in Sudan, involving substandard equipment and misappropriation of funds.",
+    "category": "procurement_fraud",
+    "amount": 290000000,
+    "year": 2006,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Om Bikram Rana, Hem Bahadur Gurung, Ramesh Chand Thakuri, Shambhu Bharati, Michael Rider",
     "status": "approved",
-    "submittedBy": "Construction Worker",
-    "submittedAt": "2024-02-28T08:15:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2011-06-08T00:00:00Z",
     "evidence": [
-      "construction_invoices.pdf",
-      "contractor_verification.xlsx"
+      "procurement_records.xlsx",
+      "un_reports.pdf"
     ],
     "links": [
-      "https://example.com/airport-construction-fraud"
+      "https://www.bbc.com/news/world-south-asia-13701849",
+      "https://kathmandupost.com/national/2017/04/30/final-verdict-on-sudan-scam-3-former-police-chiefs-sent-behind-bars"
     ],
-    "tags": ["airport", "construction", "infrastructure"]
+    "tags": [
+      "police",
+      "un-peacekeeping",
+      "embezzlement"
+    ]
   },
   {
     "id": "incident_008",
-    "title": "Customs Department Bribery Ring",
-    "description": "Systematic bribery scheme at major border crossings allowing illegal imports and tax evasion in exchange for regular payments.",
+    "title": "60kg Gold Smuggling Scandal",
+    "description": "Large-scale gold smuggling operation involving concealment in electronic goods and motorcycle parts, with transnational links and political protection.",
     "category": "bribery",
-    "amount": 22000000000,
+    "amount": 30820000000,
     "year": 2023,
-    "location": "Birgunj Customs Office",
-    "officialInvolved": "Customs Chief Tek Bahadur Rana, Deputy Chief Sunita Kumari Yadav",
+    "location": "Tribhuvan International Airport, Kathmandu, Nepal",
+    "officialInvolved": "Daoxin Wang, Krishna Bahadur Mahara, Rahul Mahara, Amala Rokka, Chandra Ghale",
     "status": "approved",
-    "submittedBy": "Customs Officer (Whistleblower)",
-    "submittedAt": "2024-01-15T15:30:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2023-07-18T00:00:00Z",
     "evidence": [
-      "payment_records.xlsx",
-      "import_documents.pdf",
-      "audio_recordings.zip"
+      "seized_gold_photos.jpg",
+      "arrest_records.pdf"
     ],
     "links": [
-      "https://example.com/customs-bribery-expose"
+      "https://kathmandupost.com/national/2023/12/13/recent-hauls-affirm-nepal-s-image-as-a-gold-smuggling-hub",
+      "https://kathmandupost.com/national/2024/07/01/20-more-arrested-in-gold-smuggling-case"
     ],
-    "tags": ["customs", "border", "imports"]
+    "tags": [
+      "gold-smuggling",
+      "transnational-crime",
+      "airport-security"
+    ]
   },
   {
     "id": "incident_009",
-    "title": "Forest Department Illegal Logging",
-    "description": "Forest officials accepting bribes to allow illegal logging operations in protected forest areas, causing significant environmental damage.",
-    "category": "bribery",
-    "amount": 6000000000,
-    "year": 2024,
-    "location": "Chitwan National Park Buffer Zone",
-    "officialInvolved": "District Forest Officer Narayan Prasad Ghimire, Range Post In-charge Mina Devi Chaudhary",
+    "title": "Ncell Tax Evasion Scandal",
+    "description": "Tax evasion in the sale of Ncell shares involving offshore companies and underreporting of capital gains, leading to billions in unpaid taxes.",
+    "category": "embezzlement",
+    "amount": 61000000000,
+    "year": 2016,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Niraj Govinda Shrestha, Upendra Mahato, Bhawana Singh Shrestha, Satish Lal Acharya",
     "status": "approved",
-    "submittedBy": "Forest Ranger",
-    "submittedAt": "2023-12-20T12:00:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2019-12-26T00:00:00Z",
     "evidence": [
-      "logging_permits.pdf",
-      "satellite_images.jpg",
-      "witness_statements.pdf"
+      "tax_records.xlsx",
+      "share_transfer_documents.pdf"
     ],
     "links": [
-      "https://example.com/illegal-logging-scandal"
+      "https://kathmandupost.com/money/2019/12/26/what-ncell-tax-dispute-is-all-about",
+      "https://english.khabarhub.com/2023/08/329651/"
     ],
-    "tags": ["forestry", "environment", "logging"]
+    "tags": [
+      "tax-evasion",
+      "offshore-companies",
+      "telecom"
+    ]
   },
   {
     "id": "incident_010",
-    "title": "Municipality Water Supply Fraud",
-    "description": "Inflated costs and substandard materials in municipal water supply project, with evidence of collusion between officials and contractors.",
-    "category": "procurementFraud",
-    "amount": 9000000000,
-    "year": 2023,
-    "location": "Lalitpur Metropolitan City",
-    "officialInvolved": "Water Supply Division Head Krishna Bahadur Magar, Technical Officer Geeta Devi Shrestha",
+    "title": "Giribandhu Tea Estate Scandal",
+    "description": "Illegal attempts to swap and sell protected tea estate land for commercial real estate development, involving collusion between estate owners, politicians, and land brokers, in violation of land reform laws.",
+    "category": "embezzlement",
+    "amount": 100000000000,
+    "year": 2021,
+    "location": "Birtamod, Jhapa District, Nepal",
+    "officialInvolved": "KP Sharma Oli, Pushpa Kamal Dahal, Rabi Lamichhane, Yogesh Bhattarai, Bishwa Prakash Sharma",
     "status": "approved",
-    "submittedBy": "Municipal Engineer",
-    "submittedAt": "2023-11-08T10:45:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-02-07T00:00:00Z",
     "evidence": [
-      "project_contracts.pdf",
-      "material_quality_reports.pdf",
-      "cost_analysis.xlsx"
+      "supreme_court_verdict.pdf",
+      "writ_petition.pdf"
     ],
     "links": [
-      "https://example.com/water-supply-fraud"
+      "https://en.wikipedia.org/wiki/Giri_Bandhu_Tea_Estate_Corruption",
+      "https://kathmandupost.com/national/2024/06/04/mayor-joins-congress-in-accusing-oli-in-giri-bandhu-land-scam"
     ],
-    "tags": ["water-supply", "municipal", "infrastructure"]
+    "tags": [
+      "land-swap",
+      "tea-estate",
+      "political-corruption"
+    ]
   },
   {
     "id": "incident_011",
-    "title": "Police Equipment Procurement Scam",
-    "description": "Overpriced and defective equipment purchased for police forces with suspected involvement of senior police officials in the procurement process.",
-    "category": "procurementFraud",
-    "amount": 4500000000,
-    "year": 2024,
-    "location": "Nepal Police Headquarters",
-    "officialInvolved": "DIG Rajesh Kumar Singh, Procurement Section Chief Inspector Anita Devi Karki",
+    "title": "Pokhara International Airport Corruption",
+    "description": "Massive irregularities and embezzlement during the construction of the China-financed airport, including overpricing, substandard work, and safety flaws.",
+    "category": "procurement_fraud",
+    "amount": 14000000000,
+    "year": 2017,
+    "location": "Pokhara, Nepal",
+    "officialInvolved": "Bureaucrats, politicians, Chinese company CAMCE representatives",
     "status": "approved",
-    "submittedBy": "Police Officer",
-    "submittedAt": "2023-10-15T14:20:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-04-18T00:00:00Z",
     "evidence": [
-      "equipment_specifications.pdf",
-      "procurement_records.xlsx"
+      "probe_report.pdf",
+      "financial_records.xlsx"
     ],
     "links": [
-      "https://example.com/police-equipment-scam"
+      "https://www.nytimes.com/2025/04/18/business/china-nepal-airport.html",
+      "https://kathmandupost.com/national/2025/04/18/billions-embezzled-in-pokhara-airport-works-probe-finds"
     ],
-    "tags": ["police", "equipment", "law-enforcement"]
+    "tags": [
+      "airport-construction",
+      "china-loan",
+      "embezzlement"
+    ]
   },
   {
     "id": "incident_012",
-    "title": "Agricultural Subsidy Misappropriation",
-    "description": "Fake farmer registrations and ghost beneficiaries in agricultural subsidy programs, with funds diverted to personal accounts of agricultural officials.",
+    "title": "Tax Settlement Commission Scandal",
+    "description": "Officials illegally waived billions in taxes for businesses, causing massive revenue loss through improper settlements.",
     "category": "embezzlement",
-    "amount": 7500000000,
-    "year": 2023,
-    "location": "Ministry of Agriculture, Kathmandu",
-    "officialInvolved": "Joint Secretary Bhim Prasad Regmi, Subsidy Distribution Officer Kamala Devi Paudel",
+    "amount": 10020000000,
+    "year": 2014,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Chudamani Sharma, Lumbadhoj Mahat, Umesh Dhakal",
     "status": "approved",
-    "submittedBy": "Agricultural Extension Officer",
-    "submittedAt": "2023-09-22T11:15:00Z",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2017-07-16T00:00:00Z",
     "evidence": [
-      "farmer_registration_records.xlsx",
-      "subsidy_distribution_data.pdf"
+      "tax_records.xlsx",
+      "settlement_documents.pdf"
     ],
     "links": [
-      "https://example.com/agriculture-subsidy-fraud"
+      "https://kathmandupost.com/national/2023/06/21/convicted-former-office-bearers-of-tax-settlement-commission-sentenced-to-nine-years-in-jail",
+      "https://myrepublica.nagariknetwork.com/news/ciaa-registers-corruption-case-against-tsc-officials-including-ird-chief-sharma"
     ],
-    "tags": ["agriculture", "subsidies", "farmers"]
+    "tags": [
+      "tax-waiver",
+      "revenue-loss",
+      "government-officials"
+    ]
+  },
+  {
+    "id": "incident_013",
+    "title": "Nepal Oil Corporation Land Purchase Scam",
+    "description": "Irregularities and embezzlement in purchasing land for petroleum storage facilities, with overpriced deals and misappropriation of funds.",
+    "category": "procurement_fraud",
+    "amount": 1500000000,
+    "year": 2017,
+    "location": "Jhapa, Sarlahi, Chitwan, Rupandehi, Nepal",
+    "officialInvolved": "NOC Chief Gopal Bahadur Khadka, other NOC officials",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2017-09-11T00:00:00Z",
+    "evidence": [
+      "land_purchase_documents.pdf",
+      "financial_audit.xlsx"
+    ],
+    "links": [
+      "https://kathmandupost.com/money/2017/08/20/noc-chief-defiant-about-controversial-land-deals",
+      "https://myrepublica.nagariknetwork.com/news/rs-400-million-plus-scam-in-noc-land-buy-in-jhapa-lawmakers"
+    ],
+    "tags": [
+      "land-purchase",
+      "oil-storage",
+      "embezzlement"
+    ]
+  },
+  {
+    "id": "incident_014",
+    "title": "Cooperatives Embezzlement Scandal",
+    "description": "Widespread fraud in cooperative societies involving embezzlement of depositors' funds, leading to massive losses and public protests.",
+    "category": "embezzlement",
+    "amount": 87000000000,
+    "year": 2024,
+    "location": "Various locations across Nepal",
+    "officialInvolved": "Rabi Lamichhane, GB Rai, Rishikesh Pokharel, other cooperative officials",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-06-01T00:00:00Z",
+    "evidence": [
+      "deposit_records.xlsx",
+      "fraud_cases.pdf"
+    ],
+    "links": [
+      "https://www.thenews.coop/new-protests-in-nepals-co-op-embezzlement-scandal/",
+      "https://kathmandupost.com/national/2025/05/04/government-makes-yet-another-promise-to-cooperatives-victims"
+    ],
+    "tags": [
+      "cooperatives",
+      "depositor-fraud",
+      "protests"
+    ]
+  },
+  {
+    "id": "incident_015",
+    "title": "Patanjali Yogpeeth Land Scam",
+    "description": "Former Prime Minister Madhav Kumar Nepal facilitated the illegal purchase and sale of land exceeding legal limits for Patanjali Yogpeeth Nepal, causing financial loss to the state through land swaps and sales at higher prices.",
+    "category": "embezzlement",
+    "amount": 185850000,
+    "year": 2010,
+    "location": "Kavre District, Nepal",
+    "officialInvolved": "Madhav Kumar Nepal, 92 others including former ministers and officials",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-06-05T00:00:00Z",
+    "evidence": [
+      "charge_sheet.pdf"
+    ],
+    "links": [
+      "https://www.reuters.com/world/asia-pacific/nepal-ex-pm-faces-graft-charge-over-land-deal-with-indian-yoga-gurus-firm-2025-06-06/",
+      "https://thediplomat.com/2025/06/nepals-landmark-corruption-case-against-ex-prime-minister-madhav-nepal/",
+      "https://kathmandupost.com/national/2025/06/05/former-pm-madhav-nepal-charged-in-patanjali-land-scam"
+    ],
+    "tags": [
+      "land-scam",
+      "political-corruption",
+      "yoga-company"
+    ]
+  },
+  {
+    "id": "incident_016",
+    "title": "Melamchi Water Supply Project Corruption",
+    "description": "Irregularities in the Melamchi Drinking Water Project, including embezzlement, failure to recover funds from contractors, and corruption leading to convictions and recovery orders.",
+    "category": "procurement_fraud",
+    "amount": 1500000000,
+    "year": 2020,
+    "location": "Sindhupalchok, Nepal",
+    "officialInvolved": "Gajendra Thakur, Rudra Singh Tamang, Mani Bhadra Neupane, Begnath Paudel, Ramchandra Neupane, other officials and companies",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2024-02-19T00:00:00Z",
+    "evidence": [
+      "court_verdict.pdf",
+      "charge_sheet.xlsx"
+    ],
+    "links": [
+      "https://kathmandupost.com/national/2024/02/19/ciaa-sues-sitting-and-former-top-officials-over-irregularities-in-melamchi-water-supply-project",
+      "https://risingnepaldaily.com/news/48743",
+      "https://ekantipur.com/en/news/2024/09/23/corruption-in-melamchi-special-verdict-to-collect-15-billion-from-4-employees-consultants-and-companies-44-59.html"
+    ],
+    "tags": [
+      "water-project",
+      "infrastructure",
+      "embezzlement"
+    ]
+  },
+  {
+    "id": "incident_017",
+    "title": "IT Equipment Procurement Scandal",
+    "description": "Embezzlement in the procurement of IT equipment, involving former executive director and others.",
+    "category": "procurement_fraud",
+    "amount": 158850000,
+    "year": 2024,
+    "location": "Kathmandu, Nepal",
+    "officialInvolved": "Sunil Paudel and five others",
+    "status": "approved",
+    "submittedBy": "Anonymous",
+    "submittedAt": "2025-07-11T00:00:00Z",
+    "evidence": [
+      "procurement_records.pdf"
+    ],
+    "links": [
+      "https://kathmandupost.com/national/2025/07/11/six-charged-with-corruption-in-it-equipment-procurement"
+    ],
+    "tags": [
+      "IT-equipment",
+      "procurement",
+      "embezzlement"
+    ]
   }
 ]
